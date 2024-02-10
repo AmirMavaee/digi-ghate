@@ -221,6 +221,10 @@ a {
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/usa-flag-bg.jpg);
 }
 
+.product{
+    box-shadow: 0 0 1rem rgba(1,87,191 , .15);
+}
+
 @media (min-width : 576px) {
     .header {
         min-height: 320px;

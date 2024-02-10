@@ -64,8 +64,11 @@ const ProducSwiper = new Swiper('.product-swiper', {
         768: {
           slidesPerView: 2,
         },
-        992: {
+        1200: {
           slidesPerView: 3,
         },
+        1400 :{
+          slidesPerView: 6,
+        }
       },
 });
