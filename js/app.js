@@ -47,3 +47,25 @@ const MostSwiper = new Swiper('.myMostSaleSwiper', {
         },
       },
 });
+
+const ProducSwiper = new Swiper('.product-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    loop: true,
+    navigation: {
+        nextEl: '.product-next',
+        prevEl: '.product-prev',
+    },
+    // autoplay: {
+    //     delay: 2000,
+    //     disableOnInteraction: false,
+    // },
+    breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+        992: {
+          slidesPerView: 3,
+        },
+      },
+});

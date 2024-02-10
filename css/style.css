@@ -145,7 +145,9 @@ a {
 .swiper-rtl .swiper-button-next:hover::after,
 .swiper-rtl .swiper-button-prev:hover::after,
 .most-prev:hover:after,
-.most-next:hover:after {
+.most-next:hover:after,
+.product-next:hover:after,
+.product-prev:hover::after  {
     color: #fff;
     background-color: #004087;
 }
@@ -161,7 +163,9 @@ a {
 .swiper-rtl .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after,
 .most-prev::after,
-.most-next::after {
+.most-next::after,
+.product-next::after,
+.product-prev::after {
     color: #000;
     background-color: #fff;
     font-size: 12px;
