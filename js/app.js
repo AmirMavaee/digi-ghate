@@ -72,3 +72,24 @@ const ProducSwiper = new Swiper('.product-swiper', {
         }
       },
 });
+
+const CustomerSwiper = new Swiper('.customer-swiper', {
+  slidesPerView: 3,
+  spaceBetween: 0,
+  loop: true,
+  // autoplay: {
+  //     delay: 2000,
+  //     disableOnInteraction: false,
+  // },
+  breakpoints: {
+      992: {
+        slidesPerView: 4,
+      },
+      1200:{
+        slidesPerView: 5,
+      },
+      1400:{
+        slidesPerView: 6,
+      }
+    },
+});

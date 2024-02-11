@@ -256,6 +256,15 @@ a {
     box-shadow: 0 0 1rem rgba(150, 122, 220, .15);
 }
 
+.customer .swiper-slide{
+    filter: grayscale(1);
+    transition: filter .3s;
+}
+
+.customer .swiper-slide:hover{
+    filter: grayscale(0);
+}
+
 @media (min-width : 576px) {
     .header {
         min-height: 320px;
