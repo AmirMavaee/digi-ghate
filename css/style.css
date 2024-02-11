@@ -229,9 +229,31 @@ a {
     transform: translateX(6px) translateY(-40px) !important;
 
 }
+
 .product-next{
     transform: translateX(-6px) translateY(-40px) !important;
 
+}
+
+.icon-container img{
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+}
+
+.icon-container .engineer{
+    box-shadow: 0 0 1rem rgba(11, 152, 223, .15);
+}
+.icon-container .repair{
+    box-shadow: 0 0 1rem rgba(72, 207, 173, .15);
+}
+.icon-container .make{
+    box-shadow: 0 0 1rem rgba(246, 187, 66, .15);
+}
+.icon-container .assembly{
+    box-shadow: 0 0 1rem rgba(216, 68, 83, .15);
+}
+.icon-container .list{
+    box-shadow: 0 0 1rem rgba(150, 122, 220, .15);
 }
 
 @media (min-width : 576px) {
