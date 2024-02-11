@@ -20,10 +20,10 @@ const specialSwiper = new Swiper('.mySpecialSaleSwiper', {
         nextEl: '.special-next',
         prevEl: '.special-prev',
     },
-    // autoplay: {
-    //     delay: 3000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
 });
 
 const MostSwiper = new Swiper('.myMostSaleSwiper', {
@@ -34,10 +34,10 @@ const MostSwiper = new Swiper('.myMostSaleSwiper', {
         nextEl: '.most-next',
         prevEl: '.most-prev',
     },
-    // autoplay: {
-    //     delay: 2000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+    },
     breakpoints: {
         768: {
           slidesPerView: 2,
@@ -56,10 +56,10 @@ const ProducSwiper = new Swiper('.product-swiper', {
         nextEl: '.product-next',
         prevEl: '.product-prev',
     },
-    // autoplay: {
-    //     delay: 2000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 3200,
+        disableOnInteraction: false,
+    },
     breakpoints: {
         768: {
           slidesPerView: 2,
@@ -77,10 +77,10 @@ const CustomerSwiper = new Swiper('.customer-swiper', {
   slidesPerView: 2,
   spaceBetween: 0,
   loop: true,
-  // autoplay: {
-  //     delay: 2000,
-  //     disableOnInteraction: false,
-  // },
+  autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+  },
   breakpoints: {
       576:{
         slidesPerView: 3,
