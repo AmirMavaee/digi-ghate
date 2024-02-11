@@ -225,6 +225,15 @@ a {
     box-shadow: 0 0 1rem rgba(1,87,191 , .15);
 }
 
+.product-prev{
+    transform: translateX(6px) translateY(-40px) !important;
+
+}
+.product-next{
+    transform: translateX(-6px) translateY(-40px) !important;
+
+}
+
 @media (min-width : 576px) {
     .header {
         min-height: 320px;
