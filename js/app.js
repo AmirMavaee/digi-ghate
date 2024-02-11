@@ -74,7 +74,7 @@ const ProducSwiper = new Swiper('.product-swiper', {
 });
 
 const CustomerSwiper = new Swiper('.customer-swiper', {
-  slidesPerView: 3,
+  slidesPerView: 2,
   spaceBetween: 0,
   loop: true,
   // autoplay: {
@@ -82,7 +82,10 @@ const CustomerSwiper = new Swiper('.customer-swiper', {
   //     disableOnInteraction: false,
   // },
   breakpoints: {
-      992: {
+      576:{
+        slidesPerView: 3,
+      },
+      768: {
         slidesPerView: 4,
       },
       1200:{
