@@ -300,9 +300,18 @@ a {
     font-size: 1rem;
 }
 
+
 .question-text , .question-text-collapse{
     text-align: justify;
     line-height: 1.8;
+}
+.question-header img{
+    transition: all .3s;
+}
+
+.rotate-135{
+    transform: rotate(135deg);
+    transition: all .3s;
 }
 
 @media (min-width : 576px) {
