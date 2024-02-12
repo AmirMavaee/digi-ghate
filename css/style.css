@@ -296,7 +296,9 @@ a {
     text-align: justify;
 }
 
-
+.question-header p{
+    font-size: 1rem;
+}
 
 @media (min-width : 576px) {
     .header {
@@ -336,6 +338,9 @@ a {
 
     .swiper-rtl .swiper-button-prev {
         transform: translateX(6px);
+    }
+    .question-header p{
+        font-size: 1.25rem;
     }
 }
 
