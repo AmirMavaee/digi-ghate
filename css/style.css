@@ -314,6 +314,14 @@ a {
     transition: all .3s;
 }
 
+.contact{
+    background: linear-gradient(90deg, #004087 0%, #0158c1 100%);
+}
+
+.contact button{
+    background-image: linear-gradient(to right, #e31f02 0%, #fe7a67 100%);
+}
+
 @media (min-width : 576px) {
     .header {
         min-height: 320px;
