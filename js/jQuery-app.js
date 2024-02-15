@@ -10,11 +10,4 @@ $(document).ready(function () {
     badgeText += 1;
     $(".badge").text(badgeText);
   });
-  $(".cart").click(function () {
-    if (badgeText === 1) $(".badge").addClass("d-none");
-    else {
-        badgeText -= 1;
-        $(".badge").text(badgeText);
-    }
-  });
 });
