@@ -477,4 +477,9 @@ a {
     .slider {
         margin-top: -21.5rem;
     }
+
+    .ourServices > div:nth-child(2){
+        width: 900px;
+        margin: 0 auto;
+    }
 }
