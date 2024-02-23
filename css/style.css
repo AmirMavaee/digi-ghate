@@ -84,6 +84,7 @@ a {
 
 .menu-button {
     margin-left: 10px;
+    z-index: 99999;
 }
 
 .logo-text {
@@ -320,6 +321,44 @@ a {
 
 .contact button{
     background-image: linear-gradient(to right, #e31f02 0%, #fe7a67 100%);
+}
+
+
+.responsive-menu{
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    transition: .3s;
+}
+
+.responsive-munu-item{
+    transform: translateX(100%);
+}
+.responsive-munu-item-show{
+    transform: translateX(0);
+    transition: .3s;
+}
+
+.responsive-menu-show{
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: .3s;
+    visibility: visible;
+}
+
+.responsive-munu-item{
+    background-color: #fff !important;
+    width: 70% !important;
+    height: 100% !important;
+}
+
+.responsive-munu-item > img{
+    transform: rotate(45deg);
+    position: absolute;
+    left: 0;
 }
 
 @media (min-width : 576px) {
